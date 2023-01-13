@@ -1,0 +1,269 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Portfolio - Tariq Rahim</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/d91ddbcbed.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="Images\TARIQ (2).png" alt="sorry" class="logo">
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#portfolio">Porfolio</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <i class="fa-solid fa-xmark" onclick="closemenu()"></i>
+                </ul>
+                <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+            </nav>
+            <div class="header-text">
+                <p>Front End Developer</p>
+                <h1>Hi, I am <span>Tariq Rahim</span></h1>
+                <p class="p">I have good experience in Web Designing <br>
+                    & development, and I have good knowledge <br>to producing quality work.</p>
+            </div>
+        </div>
+    </div>
+
+    <!-- --------about------ -->
+
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="Images\About (2).jpg" alt="another sorry">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Me</h1>
+                    <p>I am fresh graduated student from Kohat
+                        University of Science and Technology. I was good
+                        & brilliant Student of my class, always take good
+                        position in the class. To work in an organization
+                        where I can utilize my skills and knowledge related
+                        my work.</p>
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                        <p class="tab-links" onclick="opentab('education')">Education</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>Web Designing</span><br>Designing web interfaces <br>Using HTML5, CSS3<br>
+                                JavaScript & Bootsrap4.</li>
+                            <li><span>UI/UX</span><br>Designing Responsive Web Pages <br>for differend Websites & I Also
+                                have<br>knowledge of Backend Languages.</li>
+                            <li><span>Computer Operator</span><br>I have a good <br> knowledge of Ms Office
+                                Like<br>Excell, Word, Power Point etc.</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="experience">
+                        <ul>
+                            <li><span>Feb-2021 To Feb-2022</span><br>Teaching: Iqra Model School & College<br>I have a
+                                One year experience of Teaching<br>to the student of 1<sup>st</sup> & 2<sup>nd</sup>
+                                year.</li>
+                            <li><span>April-2022 To Dec-2022</span><br>Elzine Software House (Pvt) lmt.<br>I have also
+                                experience of web development.<br>I already work on different web pages.</li>
+                            <li><span>FYP Project</span><br>FYP Management System <br>I also made my FYP Project in Web
+                                <br>Where I work from front End.
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li><span>2013-2015</span><br>Matriculation - General Science<br>Iqra Model School &
+                                College<br>
+                                <pre>Marks: 889/1100          80.81%</pre>
+                            </li>
+                            <li><span>2013-2015</span><br>FSc - Pre-Engineering<br>Iqra Model School & College<br>
+                                <pre>Marks: 823/1100          74.81%</pre>
+                            </li>
+                            <li><span>2013-2015</span><br>BS - Computer Science<br>Kohat University of Science &
+                                Technology<br>
+                                <pre>CGPA: 3.65/4        79.74%</pre>
+                            </li>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- --------Services------ -->
+
+    <div id="services">
+        <div class="container">
+            <h1 class="sub-title">My Services</h1>
+            <div class="services-list">
+                <div>
+                    <i class="fa-solid fa-code"></i>
+                    <h2>Web Design</h2>
+                    <p>Are you looking for a Stunning Website design? <br>
+                        Tired of using template work? <br>
+                        Are you an agency looking to outsource projects?<br>
+                        If yes, we're to the rescue. We make your brand look its
+                        best with a stunning design.
+                        We've worked with clients from Personal websites to startups
+                        looking for an online presence with high-quality designs. See our work here,</p>
+                    <a href="#">Learn more</a>
+                </div>
+                <div>
+                    <i class="fa-solid fa-crop"></i>
+                    <h2>UI|UX Desingn</h2>
+                    <p>With mind-blowing designs and UI optimized for
+                        conversions done by us. <br>
+                        The first step for a successful business is to have an
+                        engaging user interface/experience.
+                        Message us for free suggestions that will boost your conversions off the roof.
+                        I have produced
+                        outstanding Web apps for individuals, startups,
+                        organizations, and companies worldwide. </p>
+                    <a href="#">Learn more</a>
+                </div>
+                <div>
+                    <i class="fa-brands fa-wordpress"></i>
+                    <h2>Web Developer</h2>
+                    <p>I will design and develop a professional, eye-catching, modern,
+                        and fully responsive WordPress website for you.
+                        I always discuss projects in detail to fully understand
+                        my clients' requirements, which helps me provide them with
+                        not only an esthetically pleasing website but also a complete
+                        solution that helps them achieve their business goals and grow their business.
+                    </p>
+                    <a href="#">Learn more</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- --------portfolio------ -->
+
+    <div id="portfolio">
+        <div class="container">
+            <h1 class="sub-title">My Work</h1>
+            <div class="work-list">
+                <div class="work">
+                    <img src="Images\work-2.png" alt="sorry">
+                    <div class="layer">
+                        <h3>FYP Management System</h3>
+                        <p>The main aim of the Final year project (FYP) management tool is a web-based solution designed
+                            to automate students' Final year project tasks. The application keeps a repository of
+                            students’ projects and supervisors tracks student progress on projects and maintains student
+                            and supervisor meetings. Using the application, project supervisors would be able to improve
+                            project monitoring and supervision, evaluate, grade, and send feedback and remarks.</p>
+                        <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="Images\work-1.png" alt="sorry">
+                    <div class="layer">
+                        <h3>Portfolio</h3>
+                        <p>I made my portfolio website which you are on visit to chicking my experience, i
+                            make this website just to improve my HTML, CSS and JavaScript experience.
+                        </p>
+                        <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="Images\work-3.png" alt="sorry">
+                    <div class="layer">
+                        <h3>Others</h3>
+                        <p>I made differnt type of website using my skills I already mention the links of the project in
+                            my Cv where you can visit for watching my projects.</p>
+                        <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+                    </div>
+                </div>
+            </div>
+            <a href="#" class="btn">See More</a>
+        </div>
+    </div>
+
+    <!-- --------contact------ -->
+
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="sub-title">Contact Me</h1>
+                    <p><i class="fa-solid fa-envelope"></i>tariqrahimpakistani@gmail.com</p>
+                    <p><i class="fa-solid fa-phone"></i>0335 0504091</p>
+                    <div class="social-icons">
+                        <a href="https://www.facebook.com/tariq.rahim.5832?mibextid=ZbWKwL"><i
+                                class="fa-brands fa-square-facebook"></i></a>
+                        <a href="https://www.instagram.com/tariq.rahim3"><i
+                                class="fa-brands fa-square-instagram"></i></a>
+                        <a href="https://www.linkedin.com/in/tariq-rahim-84a233239"><i
+                                class="fa-brands fa-linkedin"></i></a>
+                        <a href="https://youtube.com/@starlearningacademy8179"><i
+                                class="fa-brands fa-square-youtube"></i></a>
+                    </div>
+                    <a href="C:\Users\ast\Desktop\PortfolioWebsite1\Images\updated Cv.pdf" download
+                        class="btn btn2">Download CV</a>
+                </div>
+                <div class="contact-right">
+                    <form name="submit-to-google-sheet">
+                        <input type="text" name="Name" placeholder="Your Name" required>
+                        <input type="email" name="Email" placeholder="Your Email" required>
+                        <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                        <button type="Submit" class="btn btn2"> Submit </button>
+                    </form>
+                    <span id="msg"></span>
+                </div>
+            </div>
+        </div>
+        <div class="copyright">
+            <p>Copyright Tariq. Made with by Tariq Rahim</p>
+        </div>
+    </div>
+    <script>
+        var tablinks = document.getElementsByClassName("tab-links");
+        var tabcontents = document.getElementsByClassName("tab-contents");
+
+        function opentab(tabname) {
+            for (tablink of tablinks) {
+                tablink.classList.remove("active-link");
+            }
+            for (tabcontent of tabcontents) {
+                tabcontent.classList.remove("active-tab");
+            }
+            event.currentTarget.classList.add("active-link");
+            document.getElementById(tabname).classList.add("active-tab");
+        }
+    </script>
+    <script>
+        var sidemeu = document.getElementById("sidemenu");
+        function openmenu() {
+            sidemeu.style.right = "0";
+        }
+        function closemenu() {
+            sidemeu.style.right = "-200px";
+        }
+    </script>
+    <script>
+        const scriptURL = 'https://script.google.com/macros/s/AKfycbyiqyAe8wmc8tC7RKmLjmAoaKOBeYv4uJJnJ9XNReoi5NJBuIqf8pe8Q5CLDB0jUYhC/exec'
+        const form = document.forms['submit-to-google-sheet']
+        const msg = document.getElementById("msg")
+
+        form.addEventListener('submit', e => {
+            e.preventDefault()
+            fetch(scriptURL, { method: 'POST', body: new FormData(form) })
+                .then(response => {
+                    msg.innerHTML = "Message Send Successfully"
+                    setTimeout(function () {
+                        msg.innerHTML = ""
+                    }, 5000)
+                    form.reset()
+                })
+                .catch(error => console.error('Error!', error.message))
+        })
+    </script>
+</body>
+
+</html>
